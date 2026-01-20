@@ -1,0 +1,11 @@
+name: 'telegram_warehouse'
+version: '1.0'
+config-version: 2
+
+profile: 'telegram_warehouse'
+
+source-paths: ["models"]
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_modules"
