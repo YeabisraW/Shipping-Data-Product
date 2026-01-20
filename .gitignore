@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+
+# Secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Data & logs
+data/
+logs/
+
+# dbt artifacts
+target/
+dbt_packages/
+
+# OS files
+.DS_Store
+Thumbs.db
